@@ -3,7 +3,7 @@ name: Sync LeetCode
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"  # Runs every Saturday at 8 AM UTC (customize as needed)
+    - cron: "30 18 * * *"  # Runs every Saturday at 8 AM UTC (customize as needed)
 
 jobs:
   sync:
